@@ -1,0 +1,2 @@
+php ColumnChanger.php -e pgsql -h 127.0.0.1 -P 5432 -u username -p password -d database -t table col1 col2
+php ColumnChanger.php -e mysql -h 127.0.0.1 -P 3306 -u username -p password -d database -t table col1 col2
